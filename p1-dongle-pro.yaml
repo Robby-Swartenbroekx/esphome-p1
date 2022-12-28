@@ -75,21 +75,23 @@ sensor:
 #      state_class: total_increasing
     energy_delivered_tariff1:
       name: "Energy Consumed Tariff 1"
-      state_class: total_increasing
+      state_class: total
       device_class: energy
     energy_delivered_tariff2:
       name: "Energy Consumed Tariff 2"
-      state_class: total_increasing
+      state_class: total
       device_class: energy
 #    energy_returned_lux:
 #      name: "Energy Produced Luxembourg"
 #      state_class: total_increasing
     energy_returned_tariff1:
       name: "Energy Produced Tariff 1"
-      state_class: total_increasing
+      state_class: total
+      device_class: energy      
     energy_returned_tariff2:
       name: "Energy Produced Tariff 2"
-      state_class: total_increasing
+      state_class: total
+      device_class: energy      
     power_delivered:
       name: "Power Consumed"
       unit_of_measurement: "W"
